@@ -7,4 +7,28 @@
 #You should use input to read a string and float() to convert the string to a number.
 #Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly.
 #Do not name your variable sum or use the sum() function.
+===========================================================================================================================================
+
+===========================================================================================================================================
+
+#Function definition
+def computepay(h,r):
+    if hrs>40:
+    	inc_total=((h-40)*1.5*r)+40*r
+    	return inc_total
+    else :
+        total=h*r
+        return total
+    
+#Input from user
+hrs = input("Enter Hours:")
+h = float(hrs)
+rate_per_hour= input("Enter rate per hour:")
+r= float(rate_per_hour)
+
+# Function Calling
+p = computepay(h,r)
+print("Pay",p)
+
+=========================================================================================================================================
 

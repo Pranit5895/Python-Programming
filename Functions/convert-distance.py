@@ -4,3 +4,5 @@ def convert_distance(miles):
 
 miles = 55    #input from user
 km = convert_distnace(miles)
+print("The distance in kilometers is: " + str(km))
+print("The round-trip in kilometers is: " + str(km * 2))

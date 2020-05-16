@@ -1,7 +1,12 @@
+#The multiplication_table function prints the results of a number passed to it multiplied by 1 through 5. An additional requirement is that the result is not to exceed 25, which is done with the break statement. Fill in the blanks to complete the function to satisfy these conditions.
+
 def multiplication_table(number):
+    # Initialize the starting point of the multiplication table
     multiplier = 1
+    	# Only want to loop through 5
     while multiplier <= 5:
         result = number * multiplier
+        	# What is the additional condition to exit out of the loop?
         if result > 25:
             break
         print(str(number) + "x" + str(multiplier) + "=" + str(result))

@@ -3,3 +3,5 @@ def hint_username(username):
         print("Invalid username Must be at least 3 characters long")
     elif len(username) > 15:
         print("Invalid username Must be at most 15 characters long")
+    else:
+        print("Valid username")

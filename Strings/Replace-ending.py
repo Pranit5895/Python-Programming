@@ -9,3 +9,6 @@ def replace_ending(sentence, old, new):
                 i = len(old)
 		new_sentence = sentence[:-i]+new
 		return new_sentence
+            # Return the original sentence if there is no match
+	return sentence
+

@@ -6,3 +6,6 @@ def replace_ending(sentence, old, new):
 		# Using i as the slicing index, combine the part
 		# of the sentence up to the matched string at the
 		# end with the new string
+                i = len(old)
+		new_sentence = sentence[:-i]+new
+		return new_sentence

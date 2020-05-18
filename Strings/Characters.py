@@ -3,4 +3,8 @@
   
 String1 = "GeeksForGeeks"
 print("Initial String: ") 
-print(String1) 
+print(String1)
+
+# Printing First character
+print("\nFirst character of String is: ")
+print(String1[0])

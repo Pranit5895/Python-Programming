@@ -11,3 +11,7 @@ def is_palindrome(input_string):
                 	if x != " ":
 			new_string = new_string + x
 			reverse_string = x + reverse_string
+                        	# Compare the strings
+	if new_string == reverse_string:
+		return True
+	return False

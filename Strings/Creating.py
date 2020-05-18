@@ -12,3 +12,9 @@ print(String1)
 String1 = "I'm a Geek"
 print("\nString with the use of Double Quotes: ")
 print(String1)
+
+# Creating a String
+# with triple Quotes
+String1 = '''I'm a Geek and I live in a world of "Geeks"'''
+print("\nString with the use of Triple Quotes: ")
+print(String1)

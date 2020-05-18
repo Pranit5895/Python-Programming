@@ -8,3 +8,6 @@ def is_palindrome(input_string):
 		# Add any non-blank letters to the
 		# end of one string, and to the front
 		# of the other string.
+                	if x != " ":
+			new_string = new_string + x
+			reverse_string = x + reverse_string

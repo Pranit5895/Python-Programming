@@ -25,3 +25,9 @@ print(List)
 List.append((5, 6))
 print("\nList after Addition of a Tuple: ")
 print(List)
+
+# Addition of List to a List
+List2 = ['For', 'Geeks']
+List.append(List2)
+print("\nList after Addition of a List: ")
+print(List)

@@ -13,3 +13,10 @@ List.remove(5)
 List.remove(6)
 print("\nList after Removal of two elements: ")
 print(List)
+
+# Removing elements from List
+# using iterator method
+for i in range(1, 5):
+    List.remove(i)
+print("\nList after Removing a range of elements: ")
+print(List)

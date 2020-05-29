@@ -1,3 +1,6 @@
+# Python program to demonstrate  
+# Removal of elements in a List 
+
 # Creating a List 
 List = ['G','E','E','K','S','F', 
         'O','R','G','E','E','K','S'] 

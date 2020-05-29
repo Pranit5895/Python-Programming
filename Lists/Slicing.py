@@ -9,3 +9,11 @@ print(List)
 Sliced_List = List[3:8]
 print("\nSlicing elements in a range 3-8: ")
 print(Sliced_List)
+
+
+# Print elements from a
+# pre-defined point to end
+Sliced_List = List[5:]
+print("\nElements sliced from 5th "
+      "element till the end: ")
+print(Sliced_List)

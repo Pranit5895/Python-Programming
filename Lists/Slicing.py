@@ -17,3 +17,9 @@ Sliced_List = List[5:]
 print("\nElements sliced from 5th "
       "element till the end: ")
 print(Sliced_List)
+
+# Printing elements from
+# beginning till end
+Sliced_List = List[:]
+print("\nPrinting all elements using slice operation: ")
+print(Sliced_List)

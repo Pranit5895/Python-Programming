@@ -1,6 +1,8 @@
 # Python-Programming
 Programming in Python with level ranging from basic to advanced
 
+You can contribute to this repository by simply forking it and creating a branch with your name and creating a pull request. 
+
 <h2> TOPICS IN THIS REPOSITORY </h2>
 <a href="https://github.com/Pranit5895/Python-Programming/tree/master/Arrays"> Arrays </a> <br>
 <a href="https://github.com/Pranit5895/Python-Programming/tree/master/Constructor-Destructor"> Constructors-Destructors </a> <br>

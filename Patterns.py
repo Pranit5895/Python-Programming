@@ -61,3 +61,6 @@ def pattern5(level):
         for k in range(2 * i - 1):
             print("*", end='')
         print()
+
+if __name__ == '__main__':
+    userInput = int(input('Enter the level: '))

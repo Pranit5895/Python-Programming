@@ -64,3 +64,13 @@ def pattern5(level):
 
 if __name__ == '__main__':
     userInput = int(input('Enter the level: '))
+     pattern1(userInput)
+    print()
+    pattern2(userInput)
+    print()
+    pattern3(userInput)
+    print()
+    pattern4(userInput)
+    print()
+    pattern5(userInput)
+    print()

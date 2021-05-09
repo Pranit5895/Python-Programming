@@ -33,3 +33,15 @@ def pattern3(level):
     for i in range(level + 1):
         print(' ' * counter + '*' * i)
         counter -= 1
+
+def pattern4(level):
+    '''This function prints the following pattern:
+    ****
+     ***
+      **
+       *
+    '''
+    counter = 0
+    for i in range(level, 0 ,-1):
+        print(' ' * counter + '*' * i)
+        counter += 1

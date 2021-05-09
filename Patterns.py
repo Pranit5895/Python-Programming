@@ -21,3 +21,15 @@ def pattern2(level):
         print()
         for j in range(i):
             print('*', end = '')
+
+def pattern3(level):
+    '''This function prints the following pattern:
+       *
+      **
+     ***
+    ****
+    '''
+    counter = level
+    for i in range(level + 1):
+        print(' ' * counter + '*' * i)
+        counter -= 1
